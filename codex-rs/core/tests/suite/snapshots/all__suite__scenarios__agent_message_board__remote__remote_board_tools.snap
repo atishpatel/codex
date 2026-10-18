@@ -33,7 +33,7 @@ Scenario: Remote board tools and active-turn notifications share the existing se
 
     There are 4 available concurrency slots, meaning that up to 4 agents can be active at once, including you.
 
-    Full-history forks (`fork_turns` omitted or `"all"`) inherit the parent model and reasoning effort and d...uctions; when doing so, set `fork_turns` to `"none"`. [hash=18ccf7e93ecabab9]
+    Full-history forks (`fork_turns` omitted or `"all"`) can use `model` and `reasoning_effort` overrides wi...able `AGENTS.md` instructions, or skill instructions. [hash=0b11c71d9a33f9db]
 05:message/developer:
     <MULTI_AGENT_MODE>
 06:message/user:
